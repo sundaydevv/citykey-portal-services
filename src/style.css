@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+* {
+    /*outline: 1px solid red;*/
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('fonts/Manrope-Regular.ttf');
+}
+
+:root {
+    --font-sans: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+body {
+    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
+}
+
+@theme {
+    /* Сброс дефолтов Tailwind */
+    --color-*: initial;
+    --text-*: initial;
+    --font-mono-*: initial;
+
+
+    /* Breakpoints */
+    --breakpoint-xs: 320px;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1366px;
+    --breakpoint-2xl: 1600px;
+    --breakpoint-3xl: 1920px;
+
+    /* ==================== COLORS ==================== */
+    --color-brand-primary: #824ae3;
+    --color-brand-hover: #9f67ff;
+    --color-brand-pressed: #6529cc;
+
+    --color-text-primary: #15151f;
+    --color-text-disabled: #93959f;
+    --color-text-placeholder: rgba(0, 0, 0, 0.25);
+    --color-text-inverse: #ffffff;
+
+    --color-border-primary: #f0f0f0;
+    --color-border-secondary: #d8dde8;
+
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #f5f7ff;
+    --color-bg-menu: #ebf0ff;
+    --color-bg-mask-45: rgba(0, 0, 0, 0.45);
+    --color-bg-mask-10: rgba(0, 0, 0, 0.1);
+
+    --color-icon-primary: #c5c9d4;
+    --color-status-error: #ff4d4f;
+    --color-status-success: #52c41a;
+    --color-status-warning: #faad14;
+
+    --color-primary: var(--color-brand-primary);
+
+    /* ==================== TYPOGRAPHY ==================== */
+    --text-heading-1: 1.5rem; /* 24px на мобильных */
+    --text-heading-1--line-height: 2rem;
+
+    --text-heading-2: 1.375rem; /* 22px */
+    --text-heading-2--line-height: 1.875rem;
+
+    --text-heading-3: 1.25rem; /* 20px */
+    --text-heading-3--line-height: 1.75rem;
+
+    --text-heading-4: 1.125rem; /* 18px */
+    --text-heading-4--line-height: 1.625rem;
+
+    --text-heading-5: 1rem; /* 16px */
+    --text-heading-5--line-height: 1.5rem;
+
+    --text-body-1: 1rem; /* 16px — основной текст */
+    --text-body-1--line-height: 1.5rem;
+
+    --text-body-2: 1.125rem; /* 18px */
+    --text-body-2--line-height: 1.625rem;
+
+    --text-body-sm: 0.875rem; /* 14px */
+    --text-body-sm--line-height: 1.375rem;
+
+    --text-body-xs: 0.75rem; /* 12px */
+    --text-body-xs--line-height: 1rem;
+}
+
+/* Responsive overrides */
+@layer theme {
+    @variant md {
+        :root {
+            --text-heading-1: 1.875rem; /* 30px */
+            --text-heading-1--line-height: 2.375rem;
+
+            --text-heading-2: 1.625rem; /* 26px */
+            --text-heading-2--line-height: 2.125rem;
+
+            --text-heading-3: 1.375rem; /* 22px */
+            --text-heading-3--line-height: 1.875rem;
+        }
+    }
+
+    @variant lg {
+        :root {
+            --text-heading-1: 2.375rem; /* 38px */
+            --text-heading-1--line-height: 2.875rem;
+
+            --text-heading-2: 1.875rem; /* 30px */
+            --text-heading-2--line-height: 2.375rem;
+
+            --text-heading-3: 1.5rem; /* 24px */
+            --text-heading-3--line-height: 2rem;
+
+            --text-heading-4: 1.25rem; /* 20px */
+            --text-heading-4--line-height: 1.75rem;
+        }
+    }
+}
+
+body,
+html {
+    @apply m-0 p-0;
+}
+
+html {
+    @apply h-full;
+}
