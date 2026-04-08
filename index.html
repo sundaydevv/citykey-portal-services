@@ -14,7 +14,7 @@
 
 <main class="flex flex-col mx-auto w-full max-w-[1180px] pb-15 sm:px-[clamp(30px,5vw,102px)] 2xl:px-0">
 
-    <div class="w-full p-[24px_30px] bg-bg-primary rounded-xl md:rounded-b-[36px] text-heading-3 text-bold leading-">
+    <div class="w-full p-[24px_30px] bg-bg-primary rounded-xl md:rounded-b-[36px] text-heading-3 font-bold border border-border-primary">
         <p>Сервисы</p>
     </div>
 
@@ -23,7 +23,7 @@
         <div class="flex flex-col gap-6 w-full max-w-[586px] py-[clamp(32px,5vw,112px)] px-[clamp(16px,5vw,60px)]">
 
             <div class="flex flex-col gap-2 max-w-[466px]">
-                <h1 class="text-heading-3 text-bold">Карта жителя</h1>
+                <h1 class="text-heading-3 font-bold">Карта жителя</h1>
                 <p>Это удобная цифровая платформа для получения
                     доступа к городским услугам и сервисам.
                     Все, что вам нужно — на сайте и в приложении!</p>
@@ -37,26 +37,25 @@
         </div>
 
         <img class="w-full min-w-0 h-auto rounded-tr-[36px] rounded-br-[36px] hidden md:block"
-             src="public/images/card-bg.png"
+             src="/images/card-bg.png"
              alt=""/>
 
-        <img class="rounded-b-[40px] md:hidden" src="public/images/card-bg-adaptive.png" alt=""/>
+        <img class="rounded-b-[40px] md:hidden" src="/images/card-bg-adaptive.png" alt=""/>
 
     </article>
 
-    <article
-            class="flex mt-15 pb-4 md:pb-0 bg-bg-primary rounded-t-[40px] rounded-b-xl border border-[var(--color-border-primary)]">
+    <article class="flex mt-15 pb-4 md:pb-0 bg-bg-primary rounded-t-[40px] rounded-b-xl border border-border-primary">
 
         <div class="flex flex-col gap-8 w-full p-[32px_16px] md:py-12 md:px-[30px]">
 
             <div class="flex justify-between flex-col md:flex-row">
 
                 <div class="flex flex-col gap-2 max-w-[466px]">
-                    <p class="text-heading-2 text-bold">ТРАНСПОРТ</p>
+                    <p class="text-heading-2">ТРАНСПОРТ</p>
                     <p class="text-heading-4">Оплата проезда на транспорте и использование льготных проездных</p>
                 </div>
 
-                <img class="w-[150px] h-[160px] 2xl:hidden ml-auto" src="public/images/transport/resident-card.png" alt=""/>
+                <img class="w-[150px] h-[160px] 2xl:hidden ml-auto" src="/images/transport/resident-card.png" alt=""/>
 
             </div>
 
@@ -64,10 +63,10 @@
 
                 <div class="flex items-center gap-4 p-4 bg-bg-menu rounded-sm rounded-t-2xl">
 
-                    <img class="w-[40px] h-[40px]" src="public/images/transport/Access.svg" alt="">
+                    <img class="w-[40px] h-[40px]" src="/images/transport/access.svg" alt="">
 
                     <div class="flex flex-col">
-                        <p class="text-bold">Оплата проезда</p>
+                        <p class="font-bold">Оплата проезда</p>
                         <p>Электронный кошелек, электронный проездной, льготные проездные</p>
                     </div>
 
@@ -75,10 +74,10 @@
 
                 <div class="flex items-center gap-4 p-4 bg-bg-menu rounded-sm">
 
-                    <img class="w-[40px] h-[40px]" src="public/images/transport/Balance.svg" alt="">
+                    <img class="w-[40px] h-[40px]" src="/images/transport/balance.svg" alt="">
 
                     <div class="flex flex-col">
-                        <p class="text-bold">Баланс и тариф</p>
+                        <p class="font-bold">Баланс и тариф</p>
                         <p>Пополнение баланса и смена тарифа</p>
                     </div>
 
@@ -86,10 +85,10 @@
 
                 <div class="flex items-center gap-4 p-4 bg-bg-menu rounded-sm rounded-b-2xl">
 
-                    <img class="w-[40px] h-[40px]" src="public/images/transport/Transport.svg" alt="">
+                    <img class="w-[40px] h-[40px]" src="/images/transport/transport.svg" alt="">
 
                     <div class="flex flex-col">
-                        <p class="text-bold">История поездок</p>
+                        <p class="font-bold">История поездок</p>
                         <p>Актуальная информация о тарифе и его смена</p>
                     </div>
 
@@ -99,18 +98,18 @@
         </div>
 
         <img class="w-full max-w-[388px] h-[490px] rounded-tr-[40px] hidden 2xl:block"
-             src="public/images/transport/transport-desktop-img.jpg" alt="">
+             src="/images/transport/transport-desktop-img.jpg" alt="">
 
     </article>
 
     <section class="flex flex-col md:flex-row gap-2 mt-2">
 
         <article
-                class="flex flex-col flex-1 bg-bg-primary rounded-xl border border-[var(--color-border-primary)]">
+                class="flex flex-col flex-1 bg-bg-primary rounded-xl border border-border-primary">
 
             <div class="flex flex-col gap-6 w-full">
                 <div class="flex flex-col gap-2 p-[32px_16px] md:pt-12 md:pl-[30px]">
-                    <p class="text-heading-2 text-bold">СОЦИАЛЬНАЯ ПОДДЕРЖКА</p>
+                    <p class="text-heading-2 font-bold">СОЦИАЛЬНАЯ ПОДДЕРЖКА</p>
                     <p class="text-heading-4">Развивайтесь в одной из самых быстрорастущих индустрий с постоянно
                         расширяющейся аудиторией</p>
                 </div>
@@ -121,33 +120,32 @@
 
             </div>
 
-            <img class="max-h-[200px]" src="public/images/social-shield.png" alt="">
+            <img class="max-h-[200px]" src="/images/social-shield.png" alt="">
 
         </article>
 
         <article
-                class="flex flex-wrap flex-1 gap-[50px] bg-bg-primary rounded-xl border border-[var(--color-border-primary)]">
+                class="flex flex-wrap flex-1 gap-[50px] bg-bg-primary rounded-xl border border-border-primary">
 
             <div class="flex flex-col gap-2 p-[32px_16px] md:pt-12 md:pl-[30px]">
-                <p class="text-heading-2 text-bold">ЖКУ И ПЛАТЕЖИ</p>
+                <p class="text-heading-2 font-bold">ЖКУ И ПЛАТЕЖИ</p>
                 <p class="text-heading-4">Развивайтесь в одной из самых быстрорастущих индустрий с постоянно
                     расширяющейся аудиторией</p>
             </div>
 
-            <img class="max-h-[200px] w-full" src="public/images/calendar.png" alt="">
+            <img class="max-h-[200px] w-full" src="/images/calendar.png" alt="">
 
         </article>
 
     </section>
 
-    <article class="flex flex-col justify-between items-end md:flex-row mt-2
-            bg-bg-primary rounded-xl border border-[var(--color-border-primary)]"
-    >
+    <article
+            class="flex flex-col justify-between items-end md:flex-row mt-2 bg-bg-primary rounded-xl border border-border-primary">
 
         <div class="flex flex-col gap-6 w-full p-[32px_16px_86px_16px] md:pt-12 md:px-[30px] ">
 
             <div class="flex flex-col gap-2">
-                <p class="text-heading-2 text-bold">ОБРАЗОВАНИЕ</p>
+                <p class="text-heading-2 font-bold">ОБРАЗОВАНИЕ</p>
                 <p class="text-heading-4">Развивайтесь в одной из самых быстрорастущих индустрий с постоянно
                     расширяющейся аудиторией</p>
             </div>
@@ -160,41 +158,41 @@
 
         </div>
 
-        <img class=" h-[190px]" src="public/images/education.png" alt="">
+        <img class=" h-[190px]" src="/images/education.png" alt="">
 
     </article>
 
     <section class="flex flex-col gap-2 mt-2 pb-15 md:flex-row">
 
         <article
-                class="flex flex-wrap justify-between gap-[50px] bg-bg-primary rounded-xl md:rounded-bl-[40px] border border-[var(--color-border-primary)]">
+                class="flex flex-wrap justify-between gap-[50px] bg-bg-primary rounded-xl md:rounded-bl-[40px] border border-border-primary">
 
             <div class="flex flex-col gap-2 p-[32px_16px] md:pt-12 md:pl-[30px]">
-                <p class="text-heading-2 text-bold">ПАРТНЕРСКИЕ ПРОГРАММЫ</p>
+                <p class="text-heading-2 font-bold">ПАРТНЕРСКИЕ ПРОГРАММЫ</p>
                 <p class="text-heading-4">Развивайтесь в одной из самых быстрорастущих индустрий с постоянно
                     расширяющейся аудиторией</p>
             </div>
 
-            <img class="w-full" src="public/images/program-img.png" alt="">
+            <img class="w-full" src="/images/program-img.png" alt="">
 
         </article>
 
         <article
-                class="flex flex-wrap gap-6 bg-bg-primary rounded-xl md:rounded-br-[40px] border border-[var(--color-border-primary)]">
+                class="flex flex-wrap gap-6 bg-bg-primary rounded-xl md:rounded-br-[40px] border border-border-primary">
 
-            <div class="flex flex-col gap-[12px]">
+            <div class="flex flex-col gap-6">
 
-                <div class="flex flex-col gap-2 p-[32px_16px] md:pt-12 md:pl-[30px]">
-                    <p class="text-heading-2 text-bold">АФИША СОБЫТИЙ</p>
+                <div class="flex flex-col gap-2  px-4 pt-8 md:pt-12 md:pl-[30px]">
+                    <p class="text-heading-2 font-bold">АФИША СОБЫТИЙ</p>
                     <p class="text-heading-4">Развивайтесь в одной из самых быстрорастущих индустрий с постоянно
                         расширяющейся аудиторией</p>
                 </div>
 
-                <a href="#" class="ml-[16px] md:ml-8 text-heading-4 text-bold text-primary">Ссылка</a>
+                <a href="#" class="ml-[16px] md:ml-8 text-heading-4 text-primary">Ссылка</a>
 
             </div>
 
-            <img class="w-full" src="public/images/event-img.png" alt="">
+            <img class="w-full" src="/images/event-img.png" alt="">
 
         </article>
 
@@ -205,7 +203,7 @@
         <article class="flex-col gap-2 rounded-xl hidden lg:flex">
 
             <div class="flex flex-col items-center gap-4 max-w-[190px] h-[190px] px-6 py-10 bg-brand-pressed rounded-xl rounded-tl-[40px]">
-                <img class="w-[48px] h-[48px]" src="public/images/mobile-app/mobile-app-success.png" alt="">
+                <img class="w-[48px] h-[48px]" src="/images/mobile-app/mobile-app-success.png" alt="">
                 <p class="text-center">Удобная оплата проезда</p>
             </div>
 
@@ -219,24 +217,25 @@
         </article>
 
         <article
-                class="flex flex-col items-center gap-8 flex-1 px-[clamp(20px,5vw,60px)] py-[clamp(42px,5vw,60px)] rounded-xl"
-                style="background-image: url('/images/mobile-app/mobile-app-bg.png');">
+                class="flex flex-col items-center gap-8 flex-1 relative px-[clamp(20px,5vw,60px)] py-[clamp(42px,5vw,60px)] rounded-xl">
 
-            <div class="flex flex-col gap-2">
+            <img class="absolute inset-0 rounded-xl" src="/images/mobile-app/mobile-app-bg.png" alt=""/>
+
+            <div class="flex flex-col gap-2 relative">
                 <p class="text-center text-heading-2">Удобнее в приложении</p>
                 <p class="max-w-[370px] text-center">Все события, сервисы и бонусы у вас под рукой
                     — загрузите приложение Карта жителя</p>
             </div>
 
-            <div class="flex justify-between gap-2">
+            <div class="flex justify-between gap-2 relative">
 
                 <div class="flex justify-center flex-row flex-wrap max-w-[278px] xl:flex-col gap-2">
-                    <img src="public/images/mobile-app/app-store.png" alt="">
-                    <img src="public/images/mobile-app/app-google.png" alt="">
-                    <img src="public/images/mobile-app/rustore.png" alt="">
+                    <img src="/images/mobile-app/app-store.png" alt="">
+                    <img src="/images/mobile-app/app-google.png" alt="">
+                    <img src="/images/mobile-app/rustore.png" alt="">
                 </div>
 
-                <img class="hidden xl:block" src="public/images/mobile-app/mobile-app-qr.png" alt="">
+                <img class="hidden xl:block" src="/images/mobile-app/mobile-app-qr.png" alt="">
 
             </div>
 
@@ -259,7 +258,7 @@
             </div>
 
             <div class="flex flex-col items-center gap-4 max-w-[190px] h-[190px] px-6 py-10 bg-brand-pressed rounded-xl rounded-br-[40px]">
-                <img src="public/images/mobile-app/mobile-app-all-services.png" alt="">
+                <img src="/images/mobile-app/mobile-app-all-services.png" alt="">
                 <p class="text-center">Все сервисы под рукой</p>
             </div>
 
