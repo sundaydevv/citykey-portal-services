@@ -1,12 +1,8 @@
 @import "tailwindcss";
 
-* {
-    /*outline: 1px solid red;*/
-}
-
 @font-face {
     font-family: 'Manrope';
-    src: url('fonts/Manrope-Regular.ttf');
+    src: url('../public/fonts/Manrope-Regular.ttf');
 }
 
 :root {
